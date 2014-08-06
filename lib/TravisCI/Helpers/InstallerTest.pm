@@ -2,7 +2,7 @@ package TravisCI::Helpers::InstallerTest;
 use strict;
 use warnings;
 our $VERSION = '0.001';
-our $BRANCH = 'master';
+our $BRANCH = 'another-branch';
 
 sub import {
   my ($class, $want) = @_;
