@@ -1,0 +1,8 @@
+/blib/
+/MYMETA.json
+/MYMETA.yml
+/TravisCI-Helpers-InstallerTest-*.tar.gz
+/TravisCI-Helpers-InstallerTest-*/
+/MANIFEST
+/Makefile
+/Makefile.old
