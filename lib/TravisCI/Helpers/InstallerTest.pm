@@ -1,8 +1,10 @@
 package TravisCI::Helpers::InstallerTest;
 use strict;
-use warnings;
-our $VERSION = '0.001';
-our $BRANCH = 'another-branch';
+BEGIN { $^W = 1 }
+use vars qw($VERSION $BRANCH);
+$VERSION = '0.001';
+$BRANCH = 'master';
+$BRANCH = 'another-branch';
 
 sub import {
   my ($class, $want) = @_;
